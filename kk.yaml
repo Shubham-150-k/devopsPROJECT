@@ -1,0 +1,17 @@
+---
+"Shubham": "My name is Shubham"
+1: "This is my roll number"
+---
+#Lists
+- India
+- Australia
+- USA
+---
+cities:
+ - New Delhi
+ - Kolkata
+---
+cities: [Delhi,Mumbai]
+---
+{mango:"Yello", age:56}
+...
