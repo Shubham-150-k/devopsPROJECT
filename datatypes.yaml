@@ -15,7 +15,7 @@ not a num: .none
 surname: !!null Null
 
 ---
-booleanValue: !!bool val
+booleanValue: !!boolval
 
 ---
 #date and time
