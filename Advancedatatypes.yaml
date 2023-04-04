@@ -1,0 +1,13 @@
+#Nested sequences
+-
+ - name
+ - roll_no
+-
+ - Stream
+ - Coll
+
+#Key value pairs are called as maps
+#nested mapping
+
+---
+pair example: !!pairs [job: student,job: teacher]

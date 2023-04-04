@@ -1,0 +1,26 @@
+---
+myself: Shubham Kumbhare
+IP: "address"
+job: 'swe'
+
+bio: My name is Shubham,I am an engineer.
+
+
+---
+number: 232
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .none
+
+surname: !!null Null
+
+---
+booleanValue: !!bool val
+
+---
+#date and time
+date: !!timestamp 2002-12-14
+India time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10
+exponential numbers: 6.023E56
+

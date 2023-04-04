@@ -3,14 +3,15 @@
 1: "This is my roll number"
 ---
 #Lists
-- India
+- India #object1
 - Australia
 - USA
 ---
-cities:
+cities: #Object2
  - New Delhi
  - Kolkata
 ---
-cities: [Delhi,Mumbai]
+cities: [Delhi,Mumbai]  #Object3
 ---
 {mango:"Yello", age:56}
+...
