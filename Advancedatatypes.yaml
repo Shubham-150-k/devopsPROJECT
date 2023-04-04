@@ -11,3 +11,5 @@
 
 ---
 pair example: !!pairs [job: student,job: teacher]
+#This is a array of hash table
+#set will allow usto have unique values
