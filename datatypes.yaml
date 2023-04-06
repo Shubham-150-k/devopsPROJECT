@@ -3,20 +3,16 @@ myself: Shubham Kumbhare
 IP: "address"
 job: 'swe'
 
-bio: My name is Shubham,I am an engineer.
-
-
+bio: This ia a yaml file.
 ---
 number: 232
 marks: !!float 56.89
 infinite: !!float .inf
 not a num: .none
-
 surname: !!null Null
 
 ---
 booleanValue: !!boolval
-
 ---
 #date and time
 date: !!timestamp 2002-12-14
