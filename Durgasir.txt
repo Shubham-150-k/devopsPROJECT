@@ -1,0 +1,111 @@
+OOP-->  Module-1
+1.Data hiding
+2.Abstraction
+3.Encapsulation
+4.Tightly encapsulated class
+
+
+
+5.Is a relationship--Inheritance
+6.Has-a relationship--
+7.Method signature
+8.Overloading---poly
+9.Overriding----poly
+
+10.Static control flow
+11.Instance control flow
+12.Constructor
+
+13.Coupling--->Advance OOP features, for framework
+14.Cohetion---> Advance OOP features, for framework
+
+15. Typecasting
+
+
+1>>>>>>>>>>>>>>>>>>Data hiding>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
+>>Outside person can't access our internal data directly, our internal data should not go out directly.
+this OOP feature is nothing but data hiding.
+after authorization and validation person can access our internal data.
+
+Ex. After providing proper username and password, we can able to access our gmail inbox information.
+EX. Even though we are valid customer of the bank , we can able to access our account information, we csn't access other's access information.
+
+How we can achieve data hiding?
+By declaring data member as a private , we can achieve data hiding.
+
+public class account{
+    private double balance;  //Outsider can't access
+
+    public double getBalance()
+    {
+        #validation //after validation outsider can access our internal data.
+
+        return balance;
+    }
+}
+
+Biggest Advantage-- Security.
+It is highly Recommended to declare datamember as (modifier) private.
+
+2>>>>>>>>>>>>>>>>>>>Abstraction>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+highlight services(which we are offering) not internal implementation.
+
+Hiding internal implementation and just a highlight the set of services what we are offering is the concept of Abstraction.
+
+ex. atm services on GUI(withdraw, deposit, check balance, mini statement)
+
+The main advantages of abstraction are 
+1. We can achieve Security because we are not highlighting our internal implementation.
+2.without affecting Outside person, ww can able to perform any type changes in out internal system, enhance Enhancement 
+will become easy.
+
+3.It Improves Maintainability of the application.
+
+4.It Improves easiness to yse our system.
+
+Concept---by using GUI(interfaces) and abstract classes we can implement abstraction.
+
+
+3>>>>>>>>>>>>>>>>>>>Encapsulation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+The process of binding data and corresponding methods into a single unit called as Encapsulation.
+Every java class is the example of Encapsulation.
+
+ex. class student{
+    data members
+         +
+    methods(behaviour)
+}
+
+If any component follows data hiding and the abstraction such type of component is said to be encapsulated component.
+
+Encapsulation=Data hiding + Abstraction;
+
+ex. public class Account{
+    private double balance;
+
+    public double getBalance()
+    {
+        #validation
+        return balance;
+    }
+
+    public void setBalance(double balance)
+    {
+        #validate
+        this.balance=balance;
+    }
+}
+
+Data hiding---------private member;
+Abstraction---------GUI screen for bank services.
+
+advantages of Encapsulation are:
+1.We can achieve Security.
+2. Enhancement will become easy.
+3. It improves Maintainability of the application.
+
+The main advantage of Encapsulation is we can achieve Security but the main disadvantage of Encapsulation is
+it increases length of the code and slow shutdown execution.
