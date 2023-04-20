@@ -109,3 +109,139 @@ advantages of Encapsulation are:
 
 The main advantage of Encapsulation is we can achieve Security but the main disadvantage of Encapsulation is
 it increases length of the code and slow shutdown execution.
+
+
+
+
+
+
+
+
+
+
+Spring>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Spring is a framework.
+
+Without framework development time like 5 min..
+With framework development time like 2 min.
+
+>>>>>>>>>>framework types--2
+            1.Web framework---for web application development
+            >truts
+            >JSF
+            >Swarm
+
+            2.application framework---for web and distributed application
+            Spring framework
+    -Spring is advance framework, which have all features of ther frameworks.
+    -Spring framework is the modulerized framework(number of modules available)
+
+
+1.Core module(Basic foundation of Spring framework)
+    It mainly focus on IOC containers, beans lifecycle(how to create)
+    Entire framework is build on top of core module.
+
+     >>Two type of containers in core module.
+     1. Bean factory
+     2. Application context
+
+2.JDBC/DAO(Data Access Object) Module
+   To interact with the database.
+
+    Reason for Spring JDBC---> In any mode jdbc code is same but diffenr part is only for query .
+ ex. 1.Load and register driver.
+       Class.forName("oracle.jdbc.OracleDriver");
+     2.Establish connection between java app and database.
+       Connection con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","id","password");
+     3.Create either statement or preparedStatement or callableStatement;
+        statement st=con.createStatement();
+     4.Write and execute SQL queries
+       ResultSet rs=st.executeQuery("select * from emp");
+       int rowcount=st.executeUpdate("insert into employees values (------------)");
+
+     5.
+       rs.close();
+       st.close();
+       con.close();
+
+
+    In jdbc, for every application step 1,2,3 are same, only step 4 is variable...
+
+    Very much common intersection or code is called as Boiler plate code.
+    IMP--Spring provided solution for boiler plate code is called as Spring JDBC.
+
+    This code is abstacted by spring framework.
+
+    Spring jdbc module provide jdbctemplate class is provided.
+
+    EX. jdbcTemplate.execute("select * from emp");
+    Connection, Driver etc. done internally.
+
+3.Spring ORM Module
+    Hibernet work Sections>>>>>
+     
+     1.Create configuration Object
+      configuration cfg= new configuration();
+     
+     2.Create SessionFactory Object
+      SessionFactory sf=cfg.buildSessionFectory();
+
+     3.Create Session Object
+      Session s=sf.openSession();
+    
+     4.Create Transaction Object
+      Transaction tx=s.beginTransaction();
+
+     5.Perform database operations
+      int k_val=s.save(emp);
+
+     6.tx.commit();
+
+     7.Close the resources:
+
+   >common Sections in Hibernet 1,2,3,4,6,7
+    for all applications these Sections are common-->Boiler plate code
+
+    So abstract boiler code from HibernetTemplate class
+
+    Ex. HibernetTemplate.save(emp);
+
+    So Spring ORM is use instead of Hibernet.
+
+4.Spring AOP Module
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOTE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Spring was defined as Interface 21. After name change to Spring.
+
+Spring is the altrnative for EJB(Enterprise Java Beans)<-----> Spring
+>EJB makes application heavy weight and tightly coupled.
+>Spring makes application light weight and loosely coupled.
+>We can reduce cost.(no need to buy services.)
+
+>for large EJB is suitable.
+
+>>>>>>>>>>>>>>>>>>>>>>>
+>EJBs having dependencies on application server so----> Heavy weight
+>Spring-->Depend on Spring jars which are in JDK only.
+<<<<<<<<<<<<<<<<<<<<<<<
+
+
+NOTE:>>>>>>>>>>>>
+Awt--is heavy weight---because it use os libraries(dependent on os)
+Swing--is light weight---because it's not depend on os(it uses jdk libraries)
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
