@@ -130,10 +130,10 @@ With framework development time like 2 min.
             >truts
             >JSF
             >Swarm
-
+             
             2.application framework---for web and distributed application
             Spring framework
-    -Spring is advance framework, which have all features of ther frameworks.
+    -Spring is advance framework, which have all features of the frameworks.
     -Spring framework is the modulerized framework(number of modules available)
 
 
@@ -165,7 +165,7 @@ With framework development time like 2 min.
        con.close();
 
 
-    In jdbc, for every application step 1,2,3 are same, only step 4 is variable...
+    In jdbc, for every application step 1,2,3,5 are same, only step 4 is variable...
 
     Very much common intersection or code is called as Boiler plate code.
     IMP--Spring provided solution for boiler plate code is called as Spring JDBC.
@@ -209,13 +209,37 @@ With framework development time like 2 min.
     So Spring ORM is use instead of Hibernet.
 
 4.Spring AOP Module
+  (Aspect Oriented Programming)
+   
+   AOP give points(mapping) , where to call services like authorization method, validation method, transaction method.
+
+   ex. java application
+     -------------------
+     --------o----------                    Authentication[](service)------->require before m1() and m2()
+     -------m1()--------
+     -------------------
+     --------o----------
+     -------m2()--------
+     -------------------
+     --------o----------
+     -------m3()--------                    Transaction[](service)---------->require before m3() and m4()
+     -------------------
+     --------o----------
+     -------m4()--------
+     -------------------
+     -------------------
+
+5.Spring tx(Transaction) Module
+  For every database operations TX is important.
+  To provide transaction environment for database operationn,we need TX module.
   
+  Ex. In Hibernet
+       Begin transaction,end transaction, commit transaction, rollback transaction.
 
-
-
-
-
-
+6.Spring Web Module
+  It have two parts.
+   1. web---providing environment to integrate other framework like strut,jsf.
+   2. web MVC-- Spring
 
 
 
