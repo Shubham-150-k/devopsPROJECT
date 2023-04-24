@@ -2,10 +2,30 @@
 Step1--> Create ubuntu mac. on AWS
     Security group-->  linux port--ssh only
     key pair->extention.pem
+    linux vm to linux os connect use ppk.
+    Windows os to linux vm connect, use pem.
+
+    without pem file, we can't connect to machine.
 
    Putty is used to connect linux machine. It need ppk file.
    Convert pem to ppk using puttygen(generator)
     puttygen-->generate-->Save private key-->Save.
 
 Copy DNS username from aws>connect
-open putty->Paste DNS username.,   ssh>auth> browse private key> yes
+Open putty->Paste DNS username.,   ssh>auth> browse private key> yes
+
+Day1-Agenda>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  Create ec2 machine
+  Using putty and puttygen.
+
+Day2-Agenda>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  Connect machine with Gitbash
+  Linux Commands
+      Create file, remove file, create,delete directory,
+      Create multiple directories(d1>d2>d3>d4)
+      Rmdir fails rm -r
+      Ling list
+      What if file name starts?
+      How to see hidden files
+      How to create hidden directory?
+       
