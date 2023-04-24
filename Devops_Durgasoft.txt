@@ -1,6 +1,8 @@
 
 Step1--> Create ubuntu mac. on AWS
-    Security group-->  linux port--ssh only
+    Security group-->  linux port--ssh(22) only
+                       windows port--RDP
+                       browser communicate through http port.
     key pair->extention.pem
     linux vm to linux os connect use ppk.
     Windows os to linux vm connect, use pem.
@@ -19,13 +21,37 @@ Day1-Agenda>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   Using putty and puttygen.
 
 Day2-Agenda>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-  Connect machine with Gitbash
+  Connect machine with Gitbash--->
+        Open gitbash in pem file location.
+        Copy ssh command from AWS > connect
+        Connected(Check with ip address)
+
+
+
   Linux Commands
       Create file, remove file, create,delete directory,
+          1st way---   cat > f1(use ctrl to enter into the file)
+                       Hello world(For come out cat ctrl+d)
+
+                       cat>f2
+                       Shubham
+
+          2nd way---   touch f3(created empty file)--->
+
+                       To read--> Cat f1
+                       remove --> rm f1
+                              -->rm -r d1(for non empty dir)
+          3rd way---  vim f5---> insert --->add data--->:wq
+    
+      ls -l(use for detail, can check dir or file)
+      to create hidden file name start with .(dot)
+        to check >>ls -a
+                 >>ls -la(full detail with hidden files)
       Create multiple directories(d1>d2>d3>d4)
-      Rmdir fails rm -r
-      Ling list
+              
       What if file name starts?
       How to see hidden files
       How to create hidden directory?
-       
+  
+      Copy file>>>>>>> cp f1(source) f10(destination)
+    
