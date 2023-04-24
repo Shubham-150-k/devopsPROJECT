@@ -1,0 +1,11 @@
+
+Step1--> Create ubuntu mac. on AWS
+    Security group-->  linux port--ssh only
+    key pair->extention.pem
+
+   Putty is used to connect linux machine. It need ppk file.
+   Convert pem to ppk using puttygen(generator)
+    puttygen-->generate-->Save private key-->Save.
+
+Copy DNS username from aws>connect
+open putty->Paste DNS username.,   ssh>auth> browse private key> yes

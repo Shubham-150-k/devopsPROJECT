@@ -269,3 +269,4 @@ NOTE:>>>>>>>>>>>>
 Awt--is heavy weight---because it use os libraries(dependent on os)
 Swing--is light weight---because it's not depend on os(it uses jdk libraries)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
