@@ -148,7 +148,7 @@ With framework development time like 2 min.
 2.JDBC/DAO(Data Access Object) Module
    To interact with the database.
 
-    Reason for Spring JDBC---> In any mode jdbc code is same but diffenr part is only for query .
+    Reason for Spring JDBC---> In any mode jdbc code is same but different part is only for query .
  ex. 1.Load and register driver.
        Class.forName("oracle.jdbc.OracleDriver");
      2.Establish connection between java app and database.
@@ -177,7 +177,7 @@ With framework development time like 2 min.
     EX. jdbcTemplate.execute("select * from emp");
     Connection, Driver etc. done internally.
 
-3.Spring ORM Module
+3.Spring ORM(Object-relational mapping) Module
     Hibernet work Sections>>>>>
      
      1.Create configuration Object
