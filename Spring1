@@ -10,3 +10,16 @@ Spring1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Tools--> Eclipse, STS
          Oracle, MySQL
          Tomcat, WebLogic, JBOSS or Wildfly, Glassfish
+
+1.Introduction
+   What is the need of frameworks?
+    >to prepare and simplify enterprise application.
+     Enterprise: It is a business organization, It is a group of organization running under single label.
+     Enterprise application: It is a software application design for an enterprise, 
+     It will simplify internal business processing.
+    
+
+For any enterprise application we need to provide three layers.
+ 1.Presentation layer / User interface layer------> 
+ 2.Business processing layer
+ 3.Data storage and access layer / Persistance layer
