@@ -1,4 +1,4 @@
-Spring1>>>>>>>>>>>>>>>>>>>>>>>>>
+Spring1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
  1.Core module
  2.AOP
  3.JDBC/DAO
@@ -7,6 +7,16 @@ Spring1>>>>>>>>>>>>>>>>>>>>>>>>>
  6.Web and web MVC
  7.Security
 
+Spring2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 1.Spring Boot
+ 2.Spring JPA
+ 3.Spring Data-JPA
+ 4.Spring Cloud
+ 5.Spring Microservices
+ 6.Spring Social
+ 7.Spring Batch
+
+----------------------------------------------------------------------------------------------------------------------
  Spring framework give feature to integrate other frameworks like strut, JSF etc if required.
 
  Auto wiring---one bean object connect to other bean object(Injecting).
