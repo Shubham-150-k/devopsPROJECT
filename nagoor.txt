@@ -18,6 +18,11 @@ Spring2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 ----------------------------------------------------------------------------------------------------------------------
  Spring framework give feature to integrate other frameworks like strut, JSF etc if required.
-
  Auto wiring---one bean object connect to other bean object(Injecting).
-  
+----------------------------------------------------------------------------------------------------------------------
+
+Tools--> Eclipse, STS
+         Oracle, MySQL
+         Tomcat, WebLogic, JBOSS or Wildfly, Glassfish
+
+
