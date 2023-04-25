@@ -1,0 +1,12 @@
+Spring1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 1.Core module
+ 2.AOP
+ 3.JDBC/DAO
+ 4.ORM(object-relational mapping)
+ 5.Tx(Transaction)
+ 6.Web and web MVC
+ 7.Security
+
+Tools--> Eclipse, STS
+         Oracle, MySQL
+         Tomcat, WebLogic, JBOSS or Wildfly, Glassfish
