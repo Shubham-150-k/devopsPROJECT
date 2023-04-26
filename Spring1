@@ -30,7 +30,7 @@ For any enterprise application we need to provide three layers.
                                                     5.To send different types of request submit from client to server, http--7
                                                       get(default),host,had,options,put,tress, delete
                                                     6. Presentation logic-->AWT,Swing,java Fx, HTML, JSP, Struts, JSF....
-                                                   -----------------------------------------------------------------
+                                                    ----------------------------------------------------------------
 
 
  2.Business processing layer----------------------> Main part(Heart) of the enterprise application.
@@ -38,8 +38,12 @@ For any enterprise application we need to provide three layers.
                                                     Manage functionalities.
                                                     2.To prepare this layer, we have to use separate logic , called as business logic.
                                                     3.To prepare business logic, we have to use set of tech like Java beans,Servlets,EJBs, Spring framework ...
-                                                    
+                                                    ----------------------------------------------------------------
 
 
- 3.Data storage and access layer / Persistance layer
+ 3.Data storage and access layer / Persistance layer> 1.It is last layer in enterprise appli. development.
+                                                      2.It's main intention is to interact with database and perform db operations as per business rules and regulations.
 
+                                                      3. To prepare this layer, we use separate logic called persistence logic.
+                                                      4. JDBC,JPA,Toplink, Hibernate, EJBs-Entity beans,....
+                                                      
