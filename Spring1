@@ -27,11 +27,19 @@ For any enterprise application we need to provide three layers.
                                                       data validation-->Client side(validate on client mac.-->check id and p/w typed or not), server side(After login check data is valid or not.)
                                                     In client side validation , need to use Javascript functions.
                                                     In server side we need java validation java code is sufficient, by validation api.
-                                                    5.Types of request submit from client to server, http--7
-                                                      1.get,host,had,options,put,tress, delete
+                                                    5.To send different types of request submit from client to server, http--7
+                                                      get(default),host,had,options,put,tress, delete
+                                                    6. Presentation logic-->AWT,Swing,java Fx, HTML, JSP, Struts, JSF....
+                                                   -----------------------------------------------------------------
 
 
+ 2.Business processing layer----------------------> Main part(Heart) of the enterprise application.
+                                                    1.It can be used to define and execute all business rules and regulations which clients exactly required.
+                                                    Manage functionalities.
+                                                    2.To prepare this layer, we have to use separate logic , called as business logic.
+                                                    3.To prepare business logic, we have to use set of tech like Java beans,Servlets,EJBs, Spring framework ...
+                                                    
 
- 2.Business processing layer
+
  3.Data storage and access layer / Persistance layer
 
