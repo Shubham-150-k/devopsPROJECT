@@ -23,7 +23,15 @@ For any enterprise application we need to provide three layers.
  1.Presentation layer / User interface layer------> 1.Starting point to access our application.
                                                     2.Login pages, It will look and feel to the enterprise application.
                                                     3.It will take data from user inorder to submit to enterprise appli.
-                                                    4.save
+                                                    4.Data validation(ex. date,time syntax check.)
+                                                      data validation-->Client side(validate on client mac.-->check id and p/w typed or not), server side(After login check data is valid or not.)
+                                                    In client side validation , need to use Javascript functions.
+                                                    In server side we need java validation java code is sufficient, by validation api.
+                                                    5.Types of request submit from client to server, http--7
+                                                      1.get,host,had,options,put,tress, delete
+
+
+
  2.Business processing layer
  3.Data storage and access layer / Persistance layer
 
