@@ -46,3 +46,21 @@ For any enterprise application we need to provide three layers.
 
                                                       3. To prepare this layer, we use separate logic called persistence logic.
                                                       4. JDBC,JPA,Toplink, Hibernate, EJBs-Entity beans,....
+                                                    ----------------------------------------------------------------
+
+
+To distribute this layers, in the single machine or multiple machines we have to use system architecture.
+SYSTEM ARCHITECTURE:------->
+1. 1-tier architecture
+2.2-type architecture
+2.3-tier
+........n-tier architecture.
+
+1. 1-tier architecture
+      In this architecture , we will provide all the enterprise appli.layers in a single machine.
+
+
+2.2-type architecture
+2.3-tier
+........n-tier architecture.
+
