@@ -41,9 +41,8 @@ For any enterprise application we need to provide three layers.
                                                     ----------------------------------------------------------------
 
 
- 3.Data storage and access layer / Persistance layer> 1.It is last layer in enterprise appli. development.
+ 3.Data storage and access layer / Persistance layer> 1.It is last layer in enterprise appli. development(Bottomost)
                                                       2.It's main intention is to interact with database and perform db operations as per business rules and regulations.
 
                                                       3. To prepare this layer, we use separate logic called persistence logic.
                                                       4. JDBC,JPA,Toplink, Hibernate, EJBs-Entity beans,....
-                                                      
