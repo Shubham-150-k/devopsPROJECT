@@ -102,3 +102,66 @@ SYSTEM ARCHITECTURE:------->
 
 5.n-tier architecture.
 
+-----------------------------------------------------------------------------------------------------------------
+
+Types of enterprise application.
+                        Java
+1.Standalone appli.   
+Without any client-server architecture, made on single machine.                
+ 1.CUI   -->cmd.   
+ 2.GUI Appli.-->After in cmd javac add.java and java add.java, GUI open .
+
+
+2.Enterprise application(distributed appli.)
+  Design java application with client-server architecture.
+  
+
+  1.Web application--> Client server application.
+    Application logic will be distributed at server machine Only.
+    client is fixed-->browser, server--java code
+
+  2.Distributed appli.
+   Complete applicationlogic will be dustributed over both client mahine and server machine.
+   client is not fixed--java code, GUI appli with action perform method,JSP, framework appli like struts, JSF/// server--java code
+
+In enterprise appli we need both layers.
+
+browser(client)------------>server(Servlet(controlling perpose))-------------->EJB(business logic)
+               <-----------                                     <--------------
+               (web appli)                                    (Distributed appli)
+
+For web application,
+  we have to use separate technologies called web technologies.
+    ex. CGI,Servlets,jsp,jstl, EL..
+For distributed application
+    ex.Socket programming,RMI, EJBs,cobra,Web Services..........
+
+Main purpose of both
+   1.Web application-- to generate dynamic response from the server
+   2.Distributed appli-- to establish communication between local machine and remote machine and to generate remote services from remote machine.
+
+Two types of server available
+ 1.Web server---only for web applications. 
+ 2.Appl server---for web as well as distributed application.ex.JBOSS, Glassfish,WebLogic, tomcat upto v5.
+
+ Web applications are execuetd by both web servers and Application servers.
+ Distributed applications are execueted by only application servers.
+
+ Middleware services--> JTA(Java Transaction API), JMS(Java main API), required for web application, not for distribute.
+
+ 
+ WEB Appli--is the collection of web components like servlets,JSPs.. which executed by the web containers like servlet container, jsp container
+
+ Distributed Appli.--is the collection of EJB components, which are executed by EJB container.
+
+To prepare web application, SUN microsystem has given two design models.
+ 1.Model-1 architecture
+    Client-server architecture.
+    JSP act as view,controller, Java bean act as model part.(Older architecture)
+
+    called JSP front Arch. or
+           Page centric arch.
+
+ 2.Model-2 architecture
+
+
