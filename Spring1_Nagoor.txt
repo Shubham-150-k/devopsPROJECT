@@ -58,9 +58,47 @@ SYSTEM ARCHITECTURE:------->
 
 1. 1-tier architecture
       In this architecture , we will provide all the enterprise appli.layers in a single machine.
+    Drawbacks-- We must prepare the complete enterprise appli. in single machine.
+               1.It is highly recommended for standalone applications.
+               2.Only one user can use at one time. not for distributed or enterprise appli.
+               All 3 layers must be managed by single machine.
+               Single machine resources may not be sufficient to execute enterprise appli.
+               3.It is providing single user environment.
+               4.not providing db sharability and component sharability.
+               5.IT IS PROVIDING TIGHTLY COUPLED ARCHITECTURE.
 
 
-2.2-type architecture
-2.3-tier
-........n-tier architecture.
+2. 2-type architecture
+              Tier-1 machine--> UI Layer, Business processing layer
+
+              Tier-2 machine-->Data storage and access layer
+
+              ADV--> Burden shared, Pepformance increase.
+                     Loosely coupled desigh compared to 1-tier 
+                     Recommended for enterprise appli.
+
+              For enterprise appli. this architecture is conventional or minimum.
+              Complete enterprise appli. in two machines.
+
+              Ex. Client server architecture.
+              
+              Disadv--> Not providing clear cut separation between presentation layer and DB layer.
+                        Little bit tightly coupled.
+                        Providing db sharability but not component sharability.
+                        Still single user environment.
+                        Not suitable for standalone appli.
+                        Maintanance cost will increase, because of 2 machine.
+
+
+3. 3-tier architecture
+             Tier-1---> UI layer/Presentation logic
+             Tier-2---> Business prosessing layer/business logic
+             Tier-3---> Data storage and access layer/persistance logic
+
+             ADV--> Flexibility
+                    Loosely coupled because distribute over multiple machines
+                    Component sharability, db sharability
+                    Multi user envirinment.
+
+5.n-tier architecture.
 
