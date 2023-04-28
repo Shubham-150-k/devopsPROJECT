@@ -134,7 +134,7 @@ For web application,
   we have to use separate technologies called web technologies.
     ex. CGI,Servlets,jsp,jstl, EL..
 For distributed application
-    ex.Socket programming,RMI, EJBs,cobra,Web Services..........
+    ex.Socket programming,RMI, EJBs,corba,Web Services..........
 
 Main purpose of both
    1.Web application-- to generate dynamic response from the server
@@ -155,13 +155,22 @@ Two types of server available
  Distributed Appli.--is the collection of EJB components, which are executed by EJB container.
 
 To prepare web application, SUN microsystem has given two design models.
- 1.Model-1 architecture
+ 1.Model-1 architecture(MVC-1)
     Client-server architecture.
     JSP act as view,controller, Java bean act as model part.(Older architecture)
 
     called JSP front Arch. or
            Page centric arch.
 
- 2.Model-2 architecture
+    So, no clear cut separation between view and controller. so tightly COUPLED.
+    
+ 2.Model-2 architecture(MVC-2)
+    Servlet act as controller.
 
-
+    >It is pure MVC implementation.
+    >client                         server                                        database
+      req.------------>controller-servlet         
+                           |         |
+                           |        Model--Java beans,jdbc,Hibernate,EJBs<---------------->DB
+                           |            |                          
+       resp<-----------view-Set of JSP Pages
