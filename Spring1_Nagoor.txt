@@ -199,6 +199,6 @@ MVC architecture and it's rules and regulations.->>>>>>>>>>>>>>>>>>>>>>>
 Que.. What is the requirement to use frameworks?
  To simplify project.
  To replace boiler code.
- reusability concept.
+ reusability concept. 
 
  Ans. 
