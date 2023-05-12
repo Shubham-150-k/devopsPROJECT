@@ -22,7 +22,7 @@ Tools--> Eclipse, STS
 For any enterprise application we need to provide three layers.
  1.Presentation layer / User interface layer------> 1.Starting point to access our application.
                                                     2.Login pages, It will look and feel to the enterprise application.
-                                                    3.It will take data from user inorder to submit to enterprise appli.
+                                                    3.It will take data from user in order to submit to enterprise appli.
                                                     4.Data validation(ex. date,time syntax check.)
                                                       data validation-->Client side(validate on client mac.-->check id and p/w typed or not), server side(After login check data is valid or not.)
                                                     In client side validation , need to use Javascript functions.
@@ -68,13 +68,13 @@ SYSTEM ARCHITECTURE:------->
                5.IT IS PROVIDING TIGHTLY COUPLED ARCHITECTURE.
 
 
-2. 2-type architecture
+2. 2-tier architecture
               Tier-1 machine--> UI Layer, Business processing layer
 
               Tier-2 machine-->Data storage and access layer
 
               ADV--> Burden shared, Pepformance increase.
-                     Loosely coupled desigh compared to 1-tier 
+                     Loosely coupled design compared to 1-tier 
                      Recommended for enterprise appli.
 
               For enterprise appli. this architecture is conventional or minimum.
@@ -121,7 +121,7 @@ Without any client-server architecture, made on single machine.
     client is fixed-->browser, server--java code
 
   2.Distributed appli.
-   Complete applicationlogic will be dustributed over both client mahine and server machine.
+   Complete application logic will be dustributed over both client mahine and server machine.
    client is not fixed--java code, GUI appli with action perform method,JSP, framework appli like struts, JSF/// server--java code
 
 In enterprise appli we need both layers.
@@ -202,3 +202,4 @@ Que.. What is the requirement to use frameworks?
  reusability concept. 
 
  Ans. 
+
