@@ -45,14 +45,4 @@ Day2-Agenda>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     
       ls -l(use for detail, can check dir or file)
       to create hidden file name start with .(dot)
-        to check >>ls -a
-                 >>ls -la(full detail with hidden files)
-      Create multiple directories(d1>d2>d3>d4)
-              
-      What if file name starts?
-      How to see hidden files
-      How to create hidden directory?
-  
-      Copy file>>>>>>> cp f1(source) f10(destination)
-      
-      
+        to check >>ls      
