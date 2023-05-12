@@ -60,5 +60,9 @@ Day2-Agenda>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
        Version control system(Git)
         VCS--> It is a tool that helps a software team manage changes to source code over time.
         VCS is also known as SCM.
+        Terminal-- gitbash
+
+        Working directory----------->Staging area ---------------->Local repository
+        (Source code save)          
+        (git init)
         
-      
