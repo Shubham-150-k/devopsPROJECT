@@ -27,6 +27,15 @@ J2EE
 
 
 ADV Java Topics--------------------------------------------------------------->
+Pre-req.
+    1.Dynamic input Approaches----------------------->
+        
+    2.Class.forName() and newInstance() methods.
+    3.Static keyword
+    4.FileOutput stream and fileinputStream
+    5.Collections
+    6.Properties file.
+
 1.JDBC
 2.Servlets
 3.JSPs
