@@ -1,0 +1,19 @@
+Core_Java
+Advance_Java
+J2EE
+-------------------
+1. J2SE/ Java SE --- Fundamentals of java require.--> OOPs, EH, Packages, MT, Collections, JDBC,
+                     RMI(remote method invocation)
+2. J2EE/ Java EE --- Server side development.. need EE.(Client server architecture).
+    technologies
+    1. Component based technologies.
+        1.Web component based technologies
+           1.Servlets, JSP, JSF, JSTL, Expression language.
+        2.Distributed component basee technologies.
+        3. XML component based technologies.
+    2. Service Oriented technologies
+    3. Protocol based technologies.
+3. J2ME/ Java ME 
+
+
+
