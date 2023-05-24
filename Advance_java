@@ -4,16 +4,35 @@ J2EE
 -------------------
 1. J2SE/ Java SE --- Fundamentals of java require.--> OOPs, EH, Packages, MT, Collections, JDBC,
                      RMI(remote method invocation)
+
+
 2. J2EE/ Java EE --- Server side development.. need EE.(Client server architecture).
     technologies
     1. Component based technologies.
         1.Web component based technologies
            1.Servlets, JSP, JSF, JSTL, Expression language.
+
         2.Distributed component basee technologies.
+            1.EJBs, CORBA, Web Services...
+
         3. XML component based technologies.
+            1.JAX-P(java api for xml parsing), JAX-B(binding), JAX-RPC(remote procedure calls), ......
+
     2. Service Oriented technologies
+       JNDI(java naming and directory interface), JTA(transaction api), JCA(connector), JAAS(authentication & authorize), JMS(messaging service).
+
     3. Protocol based technologies.
-3. J2ME/ Java ME 
+        1. Web services, RMI, OMG(object management), HttpServlet.
+
+
+
+ADV Java Topics--------------------------------------------------------------->
+1.JDBC
+2.Servlets
+3.JSPs
+4.JSTL
+5.EL
+
 
 
 
