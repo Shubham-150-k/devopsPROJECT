@@ -12,7 +12,7 @@ J2EE
         1.Web component based technologies
            1.Servlets, JSP, JSF, JSTL, Expression language.
 
-        2.Distributed component basee technologies.
+        2.Distributed component base technologies.
             1.EJBs, CORBA, Web Services...
 
         3. XML component based technologies.
@@ -41,7 +41,4 @@ Pre-req.
 3.JSPs
 4.JSTL
 5.EL
-
-
-
 
