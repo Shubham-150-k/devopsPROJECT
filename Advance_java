@@ -27,18 +27,33 @@ J2EE
 
 
 ADV Java Topics--------------------------------------------------------------->
-Pre-req.
-    1.Dynamic input Approaches----------------------->
-        
+Pre-req. for JDBC[core java]
+  static input, dynamic input, command line input
+    1.Dynamic input Approaches(runtime)----------------------->
+        1.By using BufferedReader
+          readLine()
+          read()
+
+        2.By using Scanner
+          
+        3.By using console
+
+
     2.Class.forName() and newInstance() methods.
     3.Static keyword
     4.FileOutput stream and fileinputStream
     5.Collections
     6.Properties file.
 
+
 1.JDBC
+J2EE------->
 2.Servlets
 3.JSPs
 4.JSTL
 5.EL
+
+
+
+
 
