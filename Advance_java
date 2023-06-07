@@ -77,7 +77,8 @@ Pre-req. for JDBC[core java]
             >Note-->If want to access non static var. in static method, create object and use.
 
             >this keyword not allowed in static method.
-            
+
+            >
 
 
           3.Static blocks// for jdbc
