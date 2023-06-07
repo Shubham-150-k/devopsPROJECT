@@ -78,7 +78,8 @@ Pre-req. for JDBC[core java]
 
             >this keyword not allowed in static method.
 
-            >
+            >we can access static mothod by this keyword in non- static method.
+            
 
 
           3.Static blocks// for jdbc
