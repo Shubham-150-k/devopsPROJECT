@@ -67,9 +67,19 @@ Pre-req. for JDBC[core java]
             
             Suggestable is -----------> Access by class name
 
-            
+
 
           2.Static methods// for jdbc
+            >recognize and execute at the moment , when we access that method.
+            >Access by class name or reference variable.
+            >allow only static variables, will not allow non static members of current class.
+            
+            >Note-->If want to access non static var. in static method, create object and use.
+
+            >this keyword not allowed in static method.
+            
+
+
           3.Static blocks// for jdbc
   
 
