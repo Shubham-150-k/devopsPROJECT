@@ -79,7 +79,7 @@ Pre-req. for JDBC[core java]
             >this keyword not allowed in static method.
 
             >we can access static mothod by this keyword in non- static method.
-            
+
 
 
           3.Static blocks// for jdbc
@@ -90,6 +90,7 @@ Pre-req. for JDBC[core java]
     4.FileOutput stream and fileinputStream
     5.Collections
     6.Properties file.
+    7.Throws and try-catch-finally
 
 
 1.JDBC
