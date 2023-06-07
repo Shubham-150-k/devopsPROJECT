@@ -65,7 +65,9 @@ Pre-req. for JDBC[core java]
 
             >must be declared as class level variables.
             
+            Suggestable is -----------> Access by class name
 
+            
 
           2.Static methods// for jdbc
           3.Static blocks// for jdbc
