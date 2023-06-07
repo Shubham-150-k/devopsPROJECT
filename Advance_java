@@ -35,12 +35,44 @@ Pre-req. for JDBC[core java]
           read()
 
         2.By using Scanner
-          
+           make object, call direct primitive like nextInt(), nextLine() etc.
         3.By using console
+           Disadvantages of br and scanner
+            --> two line of code for single scan.
+                lengthy code
+          
+          Console c=System.console();
+           package--> java.io;
+
+           username in String, password in char array,
 
 
     2.Class.forName() and newInstance() methods.
     3.Static keyword
+        will improve sharability in java application.
+        We are able to utilize static keyword in four ways.
+          1. Static variables.
+            
+            >While execution of programme, jvm load main class byte code to the memory.
+            >static variables are recognized and initialized at the time of respctive class bytecode to the memory.
+            
+            >static var. are accesse by tho ways
+              1. by using class name
+              2. by using respective class reference variables.
+
+            >static variables will provide single value to all the objects.
+            >static variable never be local variables.
+
+            >must be declared as class level variables.
+            
+
+
+          2.Static methods// for jdbc
+          3.Static blocks// for jdbc
+  
+
+
+
     4.FileOutput stream and fileinputStream
     5.Collections
     6.Properties file.
