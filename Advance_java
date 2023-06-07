@@ -1,7 +1,7 @@
 Core_Java
 Advance_Java
 J2EE
--------------------
+-------------------LEC-1--------------------------------------------------------------------------------------
 1. J2SE/ Java SE --- Fundamentals of java require.--> OOPs, EH, Packages, MT, Collections, JDBC,
                      RMI(remote method invocation)
 
@@ -25,7 +25,7 @@ J2EE
         1. Web services, RMI, OMG(object management), HttpServlet.
 
 
-
+Lec2--------------------------------------------------------------------------------------------------------------
 ADV Java Topics--------------------------------------------------------------->
 Pre-req. for JDBC[core java]
   static input, dynamic input, command line input
@@ -52,7 +52,7 @@ Pre-req. for JDBC[core java]
         will improve sharability in java application.
         We are able to utilize static keyword in four ways.
           1. Static variables.
-            
+Lec-3--------------------------------------------------------------------------------------------------------------         
             >While execution of programme, jvm load main class byte code to the memory.
             >static variables are recognized and initialized at the time of respctive class bytecode to the memory.
             
@@ -83,7 +83,8 @@ Pre-req. for JDBC[core java]
 
 
           3.Static blocks// for jdbc
-  
+            static block is set of instructions, which are recognize and executed exactly at the time of loading the respective class bytecode to the memory.
+            
 
 
 
