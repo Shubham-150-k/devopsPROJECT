@@ -130,9 +130,9 @@ Lec-3---------------------------------------------------------------------------
             If file is not available in these paths , JVM will throw exception.
             (java.lang.ClassNotfoundException)
 
-            if found, jvm will take metadata.
+            if found, jvm will take metadata(details of the class).
             then java.lang.class's object created.
-            
+
 
 
               
