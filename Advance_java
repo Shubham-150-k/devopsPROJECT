@@ -120,6 +120,24 @@ Lec-3---------------------------------------------------------------------------
 
                     NOTE:--- Static called first then constructor called(if object created);
 
+            Class s=forName.Class("Class name");
+            
+            This will find class name in three paths.
+              1.current location
+              2.Java pre-defined library
+              3.reffered by classpath environment variable.
+
+            If file is not available in these paths , JVM will throw exception.
+            (java.lang.ClassNotfoundException)
+
+            if found, jvm will take metadata.
+            then java.lang.class's object created.
+            
+
+
+              
+
+
     5.Collections
     6.Properties file.
     7.Throws and try-catch-finally
