@@ -84,11 +84,26 @@ Lec-3---------------------------------------------------------------------------
 
           3.Static blocks// for jdbc
             static block is set of instructions, which are recognize and executed exactly at the time of loading the respective class bytecode to the memory.
-            
 
+            class HelloWorld {
+                 static{
+                        System.out.println("Static called");
+                       }
+    
+                    public static void main(String[] args){
+       
+                     HelloWorld h=new HelloWorld();
+        
+                 }
 
+                Static called at the time of class object execution(static block execute)
 
+-----------------------LEC-4----------------------------------------------------------------------------------------
     4.FileOutput stream and fileinputStream
+      
+
+
+
     5.Collections
     6.Properties file.
     7.Throws and try-catch-finally
