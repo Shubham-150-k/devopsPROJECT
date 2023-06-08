@@ -100,9 +100,25 @@ Lec-3---------------------------------------------------------------------------
 
 -----------------------LEC-4----------------------------------------------------------------------------------------
     4.FileOutput stream and fileinputStream
-      
+      Constructor---> Execute at the time of object creation.
+                      class HelloWorld {
+                             HelloWorld()
+                                {
+                                    System.out.println("Con Called...");
+                                }
+    
+                            static{
+                                      System.out.println("Static called");
+                                  }
+    
+    
+                            public static void main(String[] args){
+       
+                                 HelloWorld h=new HelloWorld();
+                                    }
+                                }
 
-
+                    NOTE:--- Static called first then constructor called(if object created);
 
     5.Collections
     6.Properties file.
