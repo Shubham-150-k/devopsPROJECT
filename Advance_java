@@ -160,7 +160,24 @@ Lec-3---------------------------------------------------------------------------
               1. reader -->same as input stream
               2. Writer--> same as output stream
 
-              
+            if file end with stream , called as byte oriented stream.
+
+            So, fileinputstream & fileoutputstream are byte oriented stream
+
+            All character oriented streams are ended with reader or writer.
+            ex. filereader, filewriter, bufferedreader.
+
+
+Lec-5------------------------------------------------------------------------------------------------------>
+        All streams in java are pre-defined classes.
+        package--java.io package
+
+        1.FileOutpurStream->
+          To transfer data from java to perticular target file.
+          FileOutputStream s=new FileOutputStream("Shubh.txt",true);  // ex. shubh.txt(path preffered)
+           if file not found--->then jvm will automatically create file.
+           
+
 
 
 
