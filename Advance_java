@@ -185,16 +185,17 @@ Lec-5---------------------------------------------------------------------------
             class Practice {
                  public static void main(String args[]) throws Exception {
 
-                     FileOutputStream s = new FileOutputStream("Shubham.txt");
+                     FileOutputStream s = new FileOutputStream("Shubham.txt",true);
                         String str = "Shubham Kumbhare";
                         byte[] b = str.getBytes();
                         System.out.println("Hello World");
                         s.write(b);
+                        s.close();
                         // System.out.println("Hello World");
                          }
                         }
 
-                    
+
 
 
 
