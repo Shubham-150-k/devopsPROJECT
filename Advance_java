@@ -141,7 +141,25 @@ Lec-3---------------------------------------------------------------------------
             If default constructor not available(parameterized constructor available) , it will throw error.
             Exception in thread "main" java.lang.InstantiationException:
 
+            If default constructor is private-->java.base/jdk.internal.reflect.Reflection.newIllegalAccessException
+
+            Note-> In java , only one acception show, then terminate, no scope of second exception.
+
+        FileOutputstream and fileinputStream-------------------------------->
+         Two type of streams available
+          1.Byte oriented stream-->data in the form of byte or binary from input devices to java or java to o/p devices.
             
+            types
+              1.inputstream-->byte code from input devices to java programme only
+              2.Outputstream->byte code from java programme to o/p devices.
+
+
+          2.Character oriented stream
+             able to allow data in th form of character.
+             types:
+              1. reader -->
+
+
 
 
               
