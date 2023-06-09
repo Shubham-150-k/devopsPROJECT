@@ -133,6 +133,15 @@ Lec-3---------------------------------------------------------------------------
             if found, jvm will take metadata(details of the class).
             then java.lang.class's object created.
 
+            we can fetch class bytecode without object.
+
+            Class s=forName.Class("Class name");//find class in three paths
+            Object o=s.newInstance();// this will execute object of the class.
+
+            If default constructor not available(parameterized constructor available) , it will throw error.
+            Exception in thread "main" java.lang.InstantiationException:
+
+            
 
 
               
