@@ -176,9 +176,25 @@ Lec-5---------------------------------------------------------------------------
           To transfer data from java to perticular target file.
           FileOutputStream s=new FileOutputStream("Shubh.txt",true);  // ex. shubh.txt(path preffered)
            if file not found--->then jvm will automatically create file.
-           
+
+            ex.   String data="Hello";
+            byte[] b=data.getBytes();
+            Note--> because fileoutputstream get data in byte .
 
 
+            class Practice {
+                 public static void main(String args[]) throws Exception {
+
+                     FileOutputStream s = new FileOutputStream("Shubham.txt");
+                        String str = "Shubham Kumbhare";
+                        byte[] b = str.getBytes();
+                        System.out.println("Hello World");
+                        s.write(b);
+                        // System.out.println("Hello World");
+                         }
+                        }
+
+                        
 
 
 
