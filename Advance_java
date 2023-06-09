@@ -157,7 +157,10 @@ Lec-3---------------------------------------------------------------------------
           2.Character oriented stream
              able to allow data in th form of character.
              types:
-              1. reader -->
+              1. reader -->same as input stream
+              2. Writer--> same as output stream
+
+              
 
 
 
