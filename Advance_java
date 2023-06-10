@@ -195,7 +195,16 @@ Lec-5---------------------------------------------------------------------------
                          }
                         }
 
+          2.fileinputStream-->
+            Transfer data from perticular file to java application.
 
+             FileInputStream fis = new FileInputStream("f1.txt");
+              int size = fis.available();
+              System.out.println(size);
+              byte b[] = new byte[size];
+              fis.read(b);
+              String str = new String(b);
+              System.out.println(str);
 
 
 
