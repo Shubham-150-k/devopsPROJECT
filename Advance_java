@@ -202,9 +202,12 @@ Lec-5---------------------------------------------------------------------------
               int size = fis.available();
               System.out.println(size);
               byte b[] = new byte[size];
-              fis.read(b);
+              fis.read(b);//--> Converting data from fileinputstream to byte array.
               String str = new String(b);
               System.out.println(str);
+              
+              Note--> If file is not found then Exception java.io.FileNotFoundException;
+
 
 
 
