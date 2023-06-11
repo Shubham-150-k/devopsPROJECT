@@ -209,14 +209,10 @@ Lec-5---------------------------------------------------------------------------
               Note--> If file is not found then Exception java.io.FileNotFoundException;
 
 
-
-
-              
-
-
     5.Collections
     6.Properties file.
-    7.Throws and try-catch-finally
+    7.Throws and try-catch-finally---------------------------------------------------------------------->
+       Exception is runtime error, abnormal termination of application.
 
 
 1.JDBC
